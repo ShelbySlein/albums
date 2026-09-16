@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Comparing Pop Album Covers (2014–2024)",
+    "section": "",
+    "text": "Code\nlibrary(tidyverse)\nlibrary(plotly)\n\n# Read the analyzed data\nfeatures &lt;- read_csv(\"data/album_features.csv\", show_col_types = FALSE)\nsimilarities &lt;- read_csv(\"data/album_similarity.csv\", show_col_types = FALSE)"
+  },
+  {
+    "objectID": "index.html#how-similar-are-pop-album-covers",
+    "href": "index.html#how-similar-are-pop-album-covers",
+    "title": "Comparing Pop Album Covers (2014–2024)",
+    "section": "How Similar Are Pop Album Covers?",
+    "text": "How Similar Are Pop Album Covers?\nTo see how much popular album covers look like one another, we extracted visual features from 20 of the biggest pop albums of the last decade:\n\nBrightness & Saturation: Average lightness and color intensity.\nColorfulness: A measure of color variety across pixels.\nVisual Similarity: Cosine similarity comparing spatial layout and color distribution."
+  },
+  {
+    "objectID": "index.html#brightness-vs.-colorfulness",
+    "href": "index.html#brightness-vs.-colorfulness",
+    "title": "Comparing Pop Album Covers (2014–2024)",
+    "section": "Brightness vs. Colorfulness",
+    "text": "Brightness vs. Colorfulness\nHover over each point to see which album it represents. Points are tinted using the album cover’s own average color:\n\n\nCode\np &lt;- ggplot(features, aes(\n  x = brightness,\n  y = colorfulness,\n  text = paste0(artist, \" - \", album, \" (\", release_year, \")\")\n)) +\n  geom_point(aes(color = avg_color_hex), size = 4) +\n  scale_color_identity() +\n  theme_minimal(base_size = 13) +\n  labs(\n    title = \"Album Covers: Brightness vs. Colorfulness\",\n    x = \"Brightness (0 = dark, 1 = bright)\",\n    y = \"Colorfulness Index\"\n  )\n\nggplotly(p, tooltip = \"text\")\n\n\n\n\n\n\n\n\nFigure 1: Brightness vs. Colorfulness across 20 top pop album covers"
+  },
+  {
+    "objectID": "index.html#top-5-most-similar-album-pairs",
+    "href": "index.html#top-5-most-similar-album-pairs",
+    "title": "Comparing Pop Album Covers (2014–2024)",
+    "section": "Top 5 Most Similar Album Pairs",
+    "text": "Top 5 Most Similar Album Pairs\nThese pairs had the highest visual similarity scores based on their color composition and layout:\n\n\nCode\nsimilarities |&gt;\n  slice_head(n = 5) |&gt;\n  mutate(similarity_pct = scales::percent(similarity, accuracy = 0.1)) |&gt;\n  select(\n    \"Album 1\" = album_1,\n    \"Album 2\" = album_2,\n    \"Similarity\" = similarity_pct\n  ) |&gt;\n  knitr::kable()\n\n\n\n\nTable 1\n\n\n\n\n\n\n\n\n\n\n\nAlbum 1\nAlbum 2\nSimilarity\n\n\n\n\nAriana Grande - Sweetener\nHarry Styles - Harry’s House\n96.8%\n\n\nAriana Grande - Thank U, Next\nTaylor Swift - Lover\n96.5%\n\n\nTaylor Swift - 1989\nAriana Grande - Thank U, Next\n96.1%\n\n\nAriana Grande - Sweetener\nTaylor Swift - Lover\n95.9%\n\n\nTaylor Swift - 1989\nTaylor Swift - Lover\n95.9%\n\n\n\n\n\n\n\n\n\nVisual Match: Pastel Aesthetics (96.5% Similar)\nAriana Grande’s Thank U, Next and Taylor Swift’s Lover share soft pink hues and dreamy textures:\n\n\n\n\n\n\nAriana Grande - Thank U, Next\n\n\n\n\n\n\n\nTaylor Swift - Lover"
+  },
+  {
+    "objectID": "index.html#top-5-most-dissimilar-album-pairs",
+    "href": "index.html#top-5-most-dissimilar-album-pairs",
+    "title": "Comparing Pop Album Covers (2014–2024)",
+    "section": "Top 5 Most Dissimilar Album Pairs",
+    "text": "Top 5 Most Dissimilar Album Pairs\nThese pairs showed the lowest visual similarity scores:\n\n\nCode\nsimilarities |&gt;\n  slice_tail(n = 5) |&gt;\n  arrange(similarity) |&gt;\n  mutate(similarity_pct = scales::percent(similarity, accuracy = 0.1)) |&gt;\n  select(\n    \"Album 1\" = album_1,\n    \"Album 2\" = album_2,\n    \"Similarity\" = similarity_pct\n  ) |&gt;\n  knitr::kable()\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\n\nAlbum 1\nAlbum 2\nSimilarity\n\n\n\n\nEd Sheeran - Divide\nBillie Eilish - When We All Fall Asleep, Where Do We Go?\n20.6%\n\n\nBillie Eilish - When We All Fall Asleep, Where Do We Go?\nOlivia Rodrigo - Guts\n22.7%\n\n\nBillie Eilish - When We All Fall Asleep, Where Do We Go?\nThe Weeknd - After Hours\n29.1%\n\n\nRihanna - Anti\nBillie Eilish - When We All Fall Asleep, Where Do We Go?\n31.9%\n\n\nDua Lipa - Future Nostalgia\nOlivia Rodrigo - Guts\n32.4%\n\n\n\n\n\n\n\n\n\nVisual Contrast: High-Key Cyan vs. Dark Contrast (20.6% Similar)\nEd Sheeran’s vibrant blue Divide contrasts strongly with Billie Eilish’s dark, monochromatic cover:\n\n\n\n\n\n\nEd Sheeran - Divide\n\n\n\n\n\n\n\nBillie Eilish - When We All Fall Asleep…"
+  }
+]
