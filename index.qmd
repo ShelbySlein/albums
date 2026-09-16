@@ -1,5 +1,5 @@
 ---
-title: "website"
+title: "Albums"
 ---
 
 This is a Quarto website.
