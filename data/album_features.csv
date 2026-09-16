@@ -1,0 +1,21 @@
+artist,album,release_year,cover_image,brightness,saturation,colorfulness,avg_color_hex,mean_red,mean_green,mean_blue
+Taylor Swift,1989,2014,data/covers/taylor_swift_1989.jpg,0.72,0.268,41.2,#9f9fa1,159.7,159.8,161.1
+Adele,25,2015,data/covers/adele_25.jpg,0.485,0.186,11.1,#7b7569,123.6,117.6,105.1
+Justin Bieber,Purpose,2015,data/covers/justin_bieber_purpose.jpg,0.426,0.027,3.3,#6c6b6a,108.6,107.5,106.7
+Rihanna,Anti,2016,data/covers/rihanna_anti.jpg,0.785,0.367,115.2,#c68486,198.4,132.4,134.0
+Ed Sheeran,Divide,2017,data/covers/ed_sheeran_divide.jpg,0.695,0.678,97.8,#3492b1,52.8,146.1,177.3
+Lorde,Melodrama,2017,data/covers/lorde_melodrama.jpg,0.716,0.817,95.5,#2e8aaf,46.3,138.7,175.6
+Taylor Swift,Reputation,2017,data/covers/taylor_swift_reputation.jpg,0.657,0.0,0.0,#a7a7a7,167.6,167.6,167.6
+Ariana Grande,Sweetener,2018,data/covers/ariana_grande_sweetener.jpg,0.876,0.318,41.4,#dfb69a,223.4,182.1,154.2
+Ariana Grande,"Thank U, Next",2019,data/covers/ariana_grande_thank_u_next.jpg,0.592,0.143,17.2,#95868b,149.7,134.1,139.2
+Taylor Swift,Lover,2019,data/covers/taylor_swift_lover.jpg,0.891,0.209,43.0,#d6bdcd,214.2,189.2,205.9
+Billie Eilish,"When We All Fall Asleep, Where Do We Go?",2019,data/covers/billie_eilish_when_we_all_fall_asleep_where_do_we_go.jpg,0.125,0.094,8.4,#1f1d1b,31.8,29.5,27.3
+Harry Styles,Fine Line,2019,data/covers/harry_styles_fine_line.jpg,0.589,0.419,66.8,#767781,118.8,119.4,129.7
+Dua Lipa,Future Nostalgia,2020,data/covers/dua_lipa_future_nostalgia.jpg,0.326,0.478,34.4,#504841,80.2,72.4,65.4
+Taylor Swift,Folklore,2020,data/covers/taylor_swift_folklore.jpg,0.658,0.0,0.0,#a7a7a7,167.9,167.9,167.9
+The Weeknd,After Hours,2020,data/covers/the_weeknd_after_hours.jpg,0.278,0.429,36.7,#413b2c,65.1,59.1,45.0
+Olivia Rodrigo,Sour,2021,data/covers/olivia_rodrigo_sour.jpg,0.7,0.308,41.7,#897da7,137.3,125.7,167.4
+Adele,30,2021,data/covers/adele_30.jpg,0.4,0.324,21.0,#575d58,87.7,93.2,88.1
+Harry Styles,Harry's House,2022,data/covers/harry_styles_harry_s_house.jpg,0.8,0.289,38.0,#cbb395,203.3,179.4,149.5
+Taylor Swift,Midnights,2022,data/covers/taylor_swift_midnights.jpg,0.409,0.418,39.2,#5f454d,95.9,69.1,77.4
+Olivia Rodrigo,Guts,2023,data/covers/olivia_rodrigo_guts.jpg,0.354,0.582,33.6,#46394b,70.7,57.9,75.1
