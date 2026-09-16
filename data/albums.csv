@@ -1,0 +1,21 @@
+artist,album,release_year,album_title_itunes,cover_image,image_url
+Taylor Swift,1989,2014,1989 (Taylor's Version) [Deluxe],data/covers/taylor_swift_1989.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8e/35/6c/8e356cc2-0be4-b83b-d29e-b578623df2ac/23UM1IM34052.rgb.jpg/600x600bb.jpg
+Adele,25,2015,25,data/covers/adele_25.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/08/8c/24/088c2405-2e33-801b-5c38-e967f2c01e69/191404113974.png/600x600bb.jpg
+Justin Bieber,Purpose,2015,Purpose,data/covers/justin_bieber_purpose.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/81/a4/dc/81a4dc50-8d7e-6ae5-71d3-f83393348248/15UMGIM59807.rgb.jpg/600x600bb.jpg
+Rihanna,Anti,2016,ANTI (Deluxe),data/covers/rihanna_anti.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9c/da/90/9cda90c9-df1a-078b-319c-bdf2801e8d1f/16UMGIM03373.rgb.jpg/600x600bb.jpg
+Ed Sheeran,Divide,2017,÷ (Deluxe),data/covers/ed_sheeran_divide.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg
+Lorde,Melodrama,2017,MCP Performs Lorde: Melodrama (Instrumental),data/covers/lorde_melodrama.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/59/61/63/59616302-d6e9-1d2d-f5e5-01f8f6eb6095/707541069335.jpg/600x600bb.jpg
+Taylor Swift,Reputation,2017,reputation,data/covers/taylor_swift_reputation.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/e6/06/ebe606da-e00f-82d3-47f3-b79904eed541/17UM1IM24651.rgb.jpg/600x600bb.jpg
+Ariana Grande,Sweetener,2018,Sweetener,data/covers/ariana_grande_sweetener.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/70/53/76/705376dc-d0dc-6945-7fb2-415038e3aafa/18UMGIM36925.rgb.jpg/600x600bb.jpg
+Ariana Grande,"Thank U, Next",2019,"thank u, next",data/covers/ariana_grande_thank_u_next.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/69/07/bb6907de-8ad4-970b-3311-121320e1bf9c/19UMGIM03691.rgb.jpg/600x600bb.jpg
+Taylor Swift,Lover,2019,Lover,data/covers/taylor_swift_lover.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/600x600bb.jpg
+Billie Eilish,"When We All Fall Asleep, Where Do We Go?",2019,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",data/covers/billie_eilish_when_we_all_fall_asleep_where_do_we_go.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg
+Harry Styles,Fine Line,2019,Fine Line,data/covers/harry_styles_fine_line.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg
+Dua Lipa,Future Nostalgia,2020,Future Nostalgia - Single,data/covers/dua_lipa_future_nostalgia.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e9/c5/a8/e9c5a8a0-d698-137b-2e85-cf3a8d9548f8/190295303372.jpg/600x600bb.jpg
+Taylor Swift,Folklore,2020,folklore (deluxe version),data/covers/taylor_swift_folklore.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/ef/c2/8cefc23a-61b7-05ff-b52a-bb1e4922087c/20UMGIM64216.rgb.jpg/600x600bb.jpg
+The Weeknd,After Hours,2020,After Hours,data/covers/the_weeknd_after_hours.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/b9/fe/2bb9fef5-d7f3-8345-25a9-db0e79fde4e4/20UMGIM11048.rgb.jpg/600x600bb.jpg
+Olivia Rodrigo,Sour,2021,SOUR,data/covers/olivia_rodrigo_sour.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/600x600bb.jpg
+Adele,30,2021,30,data/covers/adele_30.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/6d/7c/736d7cfb-c79d-c9a9-4170-5e71d008dea1/886449666430.jpg/600x600bb.jpg
+Harry Styles,Harry's House,2022,Harry's House,data/covers/harry_styles_harry_s_house.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/600x600bb.jpg
+Taylor Swift,Midnights,2022,Midnights (The Til Dawn Edition),data/covers/taylor_swift_midnights.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fb/b7/5d/fbb75d98-3b52-2fa5-ca82-658194f3c498/23UMGIM58157.rgb.jpg/600x600bb.jpg
+Olivia Rodrigo,Guts,2023,GUTS,data/covers/olivia_rodrigo_guts.jpg,https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9e/0d/17/9e0d17e0-c068-fbd9-fd85-610cc87c86aa/23UMGIM71511.rgb.jpg/600x600bb.jpg
